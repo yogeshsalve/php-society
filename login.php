@@ -17,15 +17,39 @@
 	.card-border-primary 
 	{
 		 margin: 220px 10px 50px 750px;
-		 border: 4px solid black;
-		 border-radius: 12px;
+		 border: 3px solid black;
+		 border-radius: 7px;
+		 /*border-color: #1aaee8;*/
 	
 	}
+	.card-header
+	{
+		color: white;
+		background: #006080;
+		/*#1aaee8; blue*/
+	}
+	.card-body
+	{
+		color: white;
+		background: #e6faff;
+	}
+	.input-group
+	{
+		border-radius: 7px;
+	}
+	.btn {
+	padding: 05px;
+	font-size: 15px;
+	color: white;
+	background: #006080;
+	border: none;
+	border-radius: 5px;
+}
 	</style>
 
 </head>
 <body>
-  <div class="card-border-primary  " style="max-width: 25rem;">
+  <div class="card-border-primary  " style="max-width: 25rem;  ">
   <div class="card-header">Login</div>
   <div class="card-body text-primary">
     
@@ -35,13 +59,15 @@
 
 		<div class="input-group">
 			<label>Username</label>
-			<input type="text" name="username" style="width: 25rem;" >
+			<input type="text" name="username" style="width: 25rem;"  >
 		</div>
 		<div class="input-group">
 			<label>Password</label>
 			<input type="password" name="password"  style="width: 25rem;">
 		</div>
+<br>
 		<div class="input-group">
+
 			<button type="submit" class="btn" name="login_btn">Login</button>
 		</div>
 		<p>

@@ -1,11 +1,11 @@
 * { margin: 0px; padding: 0px; }
-body {
+/*body {
 	font-size: 120%;
 	background: #F8F8FF;
 }
 .header {
 	width: 40%;
-/*	margin: 50px auto 0px;*/
+	margin: 50px auto 0px;
     margin: 150px 10px 50px 750px;
 	color: white;
 	background: #5F9EA0;
@@ -18,7 +18,7 @@ body {
 }
 form, .content {
 	width: 40%;
-	/*margin: 0px auto;*/
+	margin: 0px auto;
 	margin: 10px 10px 50px 750px;
 	padding: 20px;
 	border: 1px solid #B0C4DE;
@@ -89,4 +89,44 @@ form, .content {
 	content: "";
 	display: block;
 	clear: both;
+}*/
+
+body {
+  		background-image: url('images/register.png');
+  		background-repeat: no-repeat;
+  		background-size: 1360px 650px;
+
+  		/*background-color: #66d9ff;*/
+
+	}
+	.card-border-primary 
+	{
+		 margin: 220px 10px 50px 750px;
+		 border: 3px solid black;
+		 border-radius: 7px;
+		 /*border-color: #1aaee8;*/
+	
+	}
+	.card-header
+	{
+		color: white;
+		background: #006080;
+		/*#1aaee8; blue*/
+	}
+	.card-body
+	{
+		color: white;
+		background: #e6faff;
+	}
+	.input-group
+	{
+		border-radius: 7px;
+	}
+	.btn {
+	padding: 05px;
+	font-size: 15px;
+	color: white;
+	background: #006080;
+	border: none;
+	border-radius: 5px;
 }
