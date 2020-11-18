@@ -5,7 +5,8 @@ body {
 }
 .header {
 	width: 40%;
-	margin: 50px auto 0px;
+/*	margin: 50px auto 0px;*/
+    margin: 150px 10px 50px 750px;
 	color: white;
 	background: #5F9EA0;
 	text-align: center;
@@ -13,10 +14,12 @@ body {
 	border-bottom: none;
 	border-radius: 10px 10px 0px 0px;
 	padding: 20px;
+
 }
 form, .content {
 	width: 40%;
-	margin: 0px auto;
+	/*margin: 0px auto;*/
+	margin: 10px 10px 50px 750px;
 	padding: 20px;
 	border: 1px solid #B0C4DE;
 	background: white;
